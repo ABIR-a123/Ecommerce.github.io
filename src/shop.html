@@ -1,0 +1,592 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Ecommarce</title>
+</head>
+
+<body>
+  <header class="py-4 px-4 shadow-md bg-white items-center ">
+    <div class="container flex item-center justify-between ">
+      <!--logo------>
+      <div class="items-center mt-3 font-bold ml-4">
+        <h1 class="uppercase text-red-400 font-bold text-xl ml-24">Raf<b class="uppercase text-black">cart</b></h1>
+                      
+      </div>
+      <!--Search------>
+      <div class="w-2/4 h-4/5  relative flex my-4 ml-4">
+        <span class="left-3 top-1.5 absolute  text-gray-500 text-xs">
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+        </span>
+        <input type="text" class=" w-2/4 border border-red-300 border-r-0 pl-12   rounded-l-md focus:outline-none"
+          placeholder="search ">
+        <button
+          class="bg-red-400 border border-red-300 text-white px-8 rounded-r-md  hover:text-red-300  text-sm">Search</button>
+      </div>
+
+
+      <!--icon------>
+      <div class=" flex  ">
+       
+        <div class="">
+          <a href="account.html">
+            <i class="fa-solid fa-person text-4xl text-red-400 -ml-72 my-3 cursor-pointer "> <h1 class="text-sm -ml-4 text-black">Account</h1></i>
+            
+          </a>
+          
+        </div>
+
+        <div class="">
+          <a href="view.html">
+            <i class="fa-solid fa-cart-arrow-down text-4xl  text-red-400 -ml-52 my-3  "> <h1 class="text-sm  text-black ml-">cart</h1></i>
+            
+          </a>
+          
+        </div>
+     
+
+
+
+    </div>
+  </header>
+  <!--navbar start-->
+  <nav class="bg-gray-800 ">
+    <div class="container flex items-center  ">
+      <div class="left flex py-2 ml-28 text-white items-center relative group bg-red-400 pl-4 ">
+        <i class="fa-solid fa-bars"></i>
+        <span class="mx-2"> All Categories</span>
+        <div
+          class="absolute w-full bg-white shadow-md left-0 mt-72 mb-6  divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100  transition duration-1000 invisible group-hover:visible">
+          <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+            <i class="fa-solid fa-couch text-gray-500"></i>
+            <span class="ml-6 text-gray-600 text-sm">sofa</span>
+
+            <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+              <i class="fa-solid fa-bed text-gray-500 "></i>
+              <span class="ml-6 text-gray-600 text-sm">Bedroom</span>
+
+              <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                <i class="fa-solid fa-house-laptop text-gray-500"></i>
+                <span class="ml-6 text-gray-600 text-sm">Offie</span>
+                <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                  <i class="fa-solid fa-hands-bound text-gray-500"></i>
+                  <span class="ml-6 text-gray-600 text-sm">Outdoors</span>
+
+                  <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                    <i class="fa-solid fa-mattress-pillow text-gray-500"></i>
+                    <span class="ml-6 text-gray-600 text-sm">Motters</span>
+
+
+
+
+                  </a>
+
+
+
+        </div>
+
+
+      </div>
+      <div class="right flex  items-center">
+        <div class="left1 ml-12 text-white space-x-4 text-sm">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+
+          <a href="About.html">About Us</a>
+
+          <a href="Contact.html">Contact Us</a>
+
+
+        </div>
+        <div class="right1 ml-48 text-white text-sm cursor-pointer">
+          <a href="login.html">Login/</a>
+          <a href="Register.html">Register</a>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+      </nav>
+
+  <!--navbar End-->
+
+
+
+    <!--breadcum start-->
+    <div class="container py-3">
+        <div class="ml-28">
+        
+            <i class="fa-solid fa-house-user text-red-400 text-2xl "></i>
+            <i class="fa-solid fa-greater-than text-gray-500 mx-3 text-2xl"></i>
+            <span class="text-xl -ml-1">Shop</span>
+        </div>
+
+    </div>
+      <!--breadcum End-->
+
+
+
+
+        <!--shop wrapper start-->
+        <div class="grid grid-cols-4">
+
+
+        
+
+        <div class=" container shadow-lg shadow-blue-500   pt-12  items-start">
+
+          <!--sidedebar-->
+        
+
+        <!--Categori filter-->
+
+            <div  >
+               <h3 class="ml-28 text-xl uppercase text-gray-800 font-medium ">Categories</h3>
+               <div class="">
+                  <!--single category-->
+                  <div class="flex items-center ml-28 mt-3 ">
+                    <input type="checkbox" class="text-red-500" >
+                    <label  class="text-gray-600 mx-2 cursor-pointer">Bedroom</label>
+                    <div class="ml-4 text-gray-600 text-xs">(15)</div>
+                  </div>
+                  <div class="flex items-center ml-28 mt-3 ">
+                    <input type="checkbox" class="text-red-500" >
+                    <label  class="text-gray-600 mx-2 cursor-pointer">Sofa</label>
+                    <div class="ml-12 text-gray-600 text-xs ">(25)</div>
+                  </div>
+
+                  <div class="flex items-center ml-28 mt-3 ">
+                    <input type="checkbox" class="text-red-500" >
+                    <label  class="text-gray-600 mx-2 cursor-pointer">Offie</label>
+                    <div class="ml-11 text-gray-600 text-xs ">(07)</div>
+                  </div>
+
+                  <div class="flex items-center ml-28 mt-3 ">
+                    <input type="checkbox" class="text-red-500" >
+                    <label  class="text-gray-600 mx-2 cursor-pointer">Outdoors</label>
+                    <div class="ml-3 text-gray-600 text-xs ">(17)</div>
+                  </div>
+
+                  
+
+
+               </div>
+               
+            </div>
+
+
+
+            <div class=" my-10 " >
+              <h3 class="ml-28 text-xl uppercase text-gray-800 font-medium ">Brands</h3>
+              <div class="">
+                 <!--single category-->
+                 <div class="flex items-center ml-28 mt-3 ">
+                   <input type="checkbox" class="text-red-500" >
+                   <label  class="text-gray-600 mx-2 cursor-pointer">Domink</label>
+                   <div class="ml-5 text-gray-600 text-xs">(115)</div>
+                 </div>
+                 <div class="flex items-center ml-28 mt-3 ">
+                   <input type="checkbox" class="text-red-500" >
+                   <label  class="text-gray-600 mx-2 cursor-pointer">Kari</label>
+                   <div class="ml-12 text-gray-600 text-xs ">(05)</div>
+                 </div>
+
+                 <div class="flex items-center ml-28 mt-3 ">
+                   <input type="checkbox" class="text-red-500" >
+                   <label  class="text-gray-600 mx-2 cursor-pointer">Maxing</label>
+                   <div class="ml-5 text-gray-600 text-xs ">(21)</div>
+                 </div>
+
+                 <div class="flex items-center ml-28 mt-3 ">
+                   <input type="checkbox" class="text-red-500" >
+                   <label  class="text-gray-600 mx-2 cursor-pointer">Ernext</label>
+                   <div class="ml-7 text-gray-600 text-xs ">(03)</div>
+                 </div>
+
+                
+
+
+          </div>
+           <!--Price  category-->
+
+          <div class="pb-4 ml-28 ">
+            <h3 class=" text-xl uppercase text-gray-800 font-medium shadow-none mt-5 overflow-hidden ">Price</h3>
+            <div class="mt-4 flex items-center">
+             <input type="text" class="w-16 h-6 rounded-md border-2 px-2 py-2 border-black text-red-400 " placeholder="min ">
+             <span class="px-2">--</span>
+
+             <input type="text" class="w-16 h-6 rounded-md border-2 px-2 py-2 border-black text-red-400 mx-2" placeholder="max ">
+            </div>
+        
+          </div>
+                  
+                </div>
+        
+
+
+          <!--Size  category-->
+          <div class="ml-28 pb-10 -mt-8 ">
+
+            <h3 class=" text-xl uppercase text-gray-800 font-medium shadow-none mt-5 overflow-hidden ">size</h3>
+            <div type="" class="flex my-3 gap-2">
+              <input class="w-6 h-8 border-2 px-0.5 hover:bg-gray-200  text-white border-gray-300 cursor-pointer" placeholder="XS" ></input>
+
+              <input class="w-6 h-8 border-2 px-0.5 hover:bg-gray-200   text-black border-gray-300 cursor-pointer" placeholder="S" ></input>
+
+              <input class="w-6 h-8 border-2 px-0.5 hover:bg-gray-200   text-black border-gray-300 cursor-pointer" placeholder="M" ></input>
+              <input class="w-6 h-8 border-2 px-0.5 hover:bg-gray-200   text-black border-gray-300 cursor-pointer" placeholder="L" ></input>
+
+              <input class="w-6 h-8 border-2 px-0.5 hover:bg-gray-200   text-black border-gray-300 cursor-pointer" placeholder="XL" ></input>
+
+            </div>
+
+          
+           
+
+            
+          </div>
+
+          
+     <!--Color  category-->
+
+     <div class="ml-28 pb-10 -mt-8 ">
+
+      <h3 class=" text-xl uppercase text-gray-800 font-medium shadow-none mt-5 overflow-hidden ">color</h3>
+      <div class="flex my-3 gap-2">
+        <input type="" class="w-7 h-7 border-2 bg-green-200 border-gray-300 cursor-pointer" ></input>
+
+        <input type="" class="w-7 h-7 border-2 bg-white border-gray-300 cursor-pointer" ></input>
+
+        <input type="" class="w-7 h-7 border-2 bg-pink-400 border-gray-300 cursor-pointer" ></input>
+
+
+        <input type="" class="w-7 h-7 border-2 bg-sky-200 border-gray-300 cursor-pointer" ></h4>
+
+        <input type="" class="w-7 h-7 border-2 bg-amber-300 border-gray-300 cursor-pointer " ></input>
+
+      </div>
+
+    
+     
+
+      
+    </div>
+           <!--products-->
+
+          
+  
+
+   
+
+  
+</div>
+
+
+     <!--            Bar List      ppppppppppppppppppppppppppppppppppppppppppppppppp         pppppppp-->
+ 
+<div class="">
+  
+
+<div class="flex ">
+  <select class="w-44 text-sm text-gray-600 mx-5 py-3 border-2 focus:ring-red-400 focus:border-red-400 " >
+
+    <option value="">Default sorting</option>
+    <option value="">Price <low-high></low-high></option>
+    <option value="">Price High-low</option>
+    <option value="">Latest products</option>
+  </select>
+  <div class="ml-96 flex">
+     <div class="text-white border border-red-500 bg-red-400  flex items-center justify-center w-8 h-7 ml-72 cursor pointer">
+      <i class="fa-solid fa-bars "></i>
+     </div>
+     <div class="text-gray-600 border  bg-white  flex items-center justify-center w-8 h-7 ml-2 cursor pointer">
+      <i class="fa-solid fa-list "></i>
+     </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+     
+ 
+</div>
+
+
+<div class="my-20 -ml-80  flex gap-6 ">
+
+
+
+  <div class="bg-white shadow-md rounded w-60  overflow-hidden">
+
+    <div class="relative ">
+      <img src="/images/guyer1.jpg" class="  ">
+      <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+  
+    </div>
+    <div>
+      <p class="text-xs ml-2 pb-2 font-semibold mt-2">GUYER CHAIR</p>
+    <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+    <div class="flex items-center text-yellow-500 ml-2 text-sm">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+  
+    </div>
+    <button
+    class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+    </div>
+
+    <div class="my-7 ">
+
+      <div class="relative pt-4">
+        <img src="/images/of2.jpeg" class=" ">
+        <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+    
+      </div>
+      <div>
+        <p class="text-xs ml-2 pb-2 font-semibold mt-2 uppercase">office</p>
+      <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+      <div class="flex items-center text-yellow-500 ml-2 text-sm">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    
+      </div>
+      <button
+      class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+      </div>
+  
+  
+      
+    
+  
+    </div>
+  
+
+
+  </div>
+
+
+  <div class="bg-white shadow-md rounded w-60 overflow-hidden">
+
+    <div class="relative ">
+      <img src="/images/guyer3.jfif" class="  ">
+      <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+  
+    </div>
+    <div>
+      <p class="text-xs ml-2 pb-2 font-semibold mt-2">GUYER CHAIR</p>
+    <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+    <div class="flex items-center text-yellow-500 ml-2 text-sm">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+  
+    </div>
+    <button
+    class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+    </div>
+
+
+
+    <div class="my-7 ">
+
+      <div class="relative pt-2.5">
+        <img src="/images/sofa8.webp" class=" p-10">
+        <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+    
+      </div>
+      <div>
+        <p class="text-xs ml-2 pb-2 font-semibold mt-2">GUYER CHAIR</p>
+      <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+      <div class="flex items-center text-yellow-500 ml-2 text-sm">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    
+      </div>
+      <button
+      class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+      </div>
+  
+  
+      
+    
+  
+    </div>
+  
+
+
+
+
+  </div>
+
+
+  <div class="bg-white shadow-md rounded w-60  overflow-hidden">
+
+    <div class="relative ">
+      <img src="/images/guyer5.jpg" class="  ">
+      <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+  
+    </div>
+    <div>
+      <p class="text-xs ml-2 pb-2 font-semibold mt-2">GUYER CHAIR</p>
+    <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+    <div class="flex items-center text-yellow-500 ml-2 text-sm">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+  
+    </div>
+    <button
+    class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+    </div>
+
+
+    <div class="my-7 ">
+
+      <div class="relative pt-4">
+        <img src="/images/bedroom.jfif" class=" h-full">
+        <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+    
+      </div>
+      <div>
+        <p class="text-xs ml-2 pb-2 font-semibold mt-2 uppercase">Bedroom</p>
+      <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+      <div class="flex items-center text-yellow-500 ml-2 text-sm">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    
+      </div>
+      <button
+      class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+      </div>
+  
+  
+      
+    
+  
+    </div>
+  
+  
+
+
+
+  </div>
+
+
+  
+
+</div>
+
+
+<div class="bg-white shadow-md rounded w-52  overflow-hidden my-20 mx-5">
+
+  <div class="relative -p">
+    <img src="/images/guyer6.jpg" class="  ">
+    <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+
+  </div>
+  <div>
+    <p class="text-xs ml-2 pb-2 font-semibold mt-2 uppercase">Guyer chair</p>
+  <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+  <div class="flex items-center text-yellow-500 ml-2 text-sm">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+
+  </div>
+  <button
+  class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+  </div>
+
+
+
+  <div class="my-7 ">
+
+    <div class="relative pt-0.5">
+      <img src="/images/sofa5.jpg" class="  ">
+      <div class="absolute  inset-0 bg-black bg-opacity-10 hover:bg-opacity-30 transition "></div>
+  
+    </div>
+    <div>
+      <p class="text-xs ml-2 pb-2 font-semibold mt-2 uppercase">Sofa</p>
+    <p class="text-red-400 ml-2 text-xl text-extrabold">$45.00 <span class="text-gray-400 line-through text-sm">$55.00</span></p>
+    <div class="flex items-center text-yellow-500 ml-2 text-sm">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+  
+    </div>
+    <button
+    class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-b-sm w-full  hover:bg-transparent hover:text-red-400 mt-3 text-sm font-semibold ">Add to Cart</button>
+    </div>
+
+
+    
+  
+
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+   
+
+
+
+          <!--shop wrapper End-->
+
+
+
+
+
+  
+</body>
+</html>

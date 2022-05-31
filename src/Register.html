@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Ecommarce</title>
+</head>
+
+<body>
+    <header class="py-4 px-4 shadow-md bg-white items-center ">
+        <div class="container flex item-center justify-between ">
+          <!--logo------>
+          <div class="items-center mt-3 font-bold ml-4">
+            <h1 class="uppercase text-red-400 font-bold text-xl ml-24">Raf<b class="uppercase text-black">cart</b></h1>
+    
+          </div>
+          <!--Search------>
+          <div class="w-2/4 h-4/5  relative flex my-4 ml-4">
+            <span class="left-3 top-1.5 absolute  text-gray-500 text-xs">
+              <i class="fa-solid fa-magnifying-glass"></i>
+    
+            </span>
+            <input type="text" class=" w-2/4 border border-red-300 border-r-0 pl-12   rounded-l-md focus:outline-none"
+              placeholder="search ">
+            <button
+              class="bg-red-400 border border-red-300 text-white px-8 rounded-r-md  hover:text-red-300  text-sm">Search</button>
+          </div>
+    
+    
+          <!--icon------>
+          <div class=" flex  ">
+    
+            <div class="">
+              <a href="account.html">
+                <i class="fa-solid fa-person text-4xl text-red-400 -ml-72 my-3 cursor-pointer ">
+                  <h1 class="text-sm -ml-4 text-black">Account</h1>
+                </i>
+    
+              </a>
+    
+            </div>
+    
+            <div class="">
+              <a href="view.html">
+                <i class="fa-solid fa-cart-arrow-down text-4xl  text-red-400 -ml-52 my-3  ">
+                  <h1 class="text-sm  text-black ml-">cart</h1>
+                </i>
+    
+              </a>
+    
+            </div>
+    
+    
+    
+    
+          </div>
+      </header>
+    <!--navbar start-->
+    <nav class="bg-gray-800 ">
+        <div class="container flex items-center  ">
+            <div class="left flex py-2 ml-28 text-white items-center relative group bg-red-400 pl-4 ">
+                <i class="fa-solid fa-bars"></i>
+                <span class="mx-2"> All Categories</span>
+                <div
+                    class="absolute w-full bg-white shadow-md left-0 mt-72 mb-6  divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100  transition duration-1000 invisible group-hover:visible">
+                    <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                        <i class="fa-solid fa-couch text-gray-500"></i>
+                        <span class="ml-6 text-gray-600 text-sm">sofa</span>
+
+                        <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                            <i class="fa-solid fa-bed text-gray-500 "></i>
+                            <span class="ml-6 text-gray-600 text-sm">Bedroom</span>
+
+                            <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                                <i class="fa-solid fa-house-laptop text-gray-500"></i>
+                                <span class="ml-6 text-gray-600 text-sm">Offie</span>
+                                <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                                    <i class="fa-solid fa-hands-bound text-gray-500"></i>
+                                    <span class="ml-6 text-gray-600 text-sm">Outdoors</span>
+
+                                    <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                                        <i class="fa-solid fa-mattress-pillow text-gray-500"></i>
+                                        <span class="ml-6 text-gray-600 text-sm">Motters</span>
+
+
+
+
+                                    </a>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="right flex  items-center">
+                <div class="left1 ml-12 text-white space-x-4 text-sm">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+
+                    <a href="About.html">About Us</a>
+
+                    <a href="Contact.html">Contact Us</a>
+
+
+                </div>
+                <div class="right1 ml-48 text-white text-sm cursor-pointer">
+                    <a href="login.html">Login/</a>
+                    <a href="">Register</a>
+          
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    <!--navbar End-->
+
+
+    <!--Register start-->
+
+    <div class="container py-8">
+        <div class="w-4/12 mx-auto shadow px-4 py-7 rounded overflow-hidden">
+            <h1 class="uppercase text-2xl font-medium mb-1 ">Registration</h1>
+
+            <form action="">
+
+                <div class="space-y-3 font-semibold my-5">
+
+
+                    <div>
+                        <label for="text class=" text-gray-600 block "> Full Name</label>
+                        <input type=" text"
+                            class="block w-full border border-gray-300 px-4 rounded text-gray-600 hover:border-red-400"
+                            placeholder="Enter your Full Name">
+
+                    </div>
+
+                    <div>
+                        <label for="text class=" text-gray-600 block "> UserName</label>
+                        <input type=" text"
+                            class="block w-full border border-gray-300 px-4 rounded text-gray-600 hover:border-red-400"
+                            placeholder="Enter your Username">
+
+                    </div>
+
+                    <div>
+                        <label for="Number" class="text-gray-600 block "> Mobile Number</label>
+                        <input type="number"
+                            class="block w-full border border-gray-300 px-4 rounded text-gray-600 hover:border-red-400"
+                            placeholder="Enter your Number">
+
+                    </div>
+
+                    <div>
+                        <label for="Email" class="text-gray-600 block ">Email addresss</label>
+                        <input type="Email"
+                            class="block w-full border border-gray-300 px-4 rounded text-gray-600 hover:border-red-400"
+                            placeholder="Enter your Email Address">
+
+                    </div>
+
+                    <div>
+                        <label for="Email" class="text-gray-600 block ">Password</label>
+                        <input type="Email"
+                            class="block w-full border border-gray-300 px-4 rounded text-gray-600 hover:border-red-400"
+                            placeholder="Enter your Password">
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="Email" class="text-gray-600 block ">Gender</label>
+
+                        <div class="flex">
+                            <input type="radio" class=" my-3 mx-3 ml-5">
+                            <h1 class="my-1.5">Male</h1>
+
+                            <input type="radio" class=" my-3 mx-3 ml-40">
+                            <h1 class="my-1.5">Female</h1>
+
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <button
+                            class="bg-red-400 border-red-400 border-2 py-1 text-white px-8 rounded-md w-full  hover:bg-transparent hover:text-red-400 mt-3  font-bold text-lg">Register</button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!--Register end-->
+
+
+
+    <!--Fotter start-->
+
+    <footer class="container  my-20 bg-white pb-12 border-t border-gray-100 shadow ml-28">
+
+        <div>
+
+
+            <div class="grid grid-cols-3">
+
+                <div class="left  my-10 ">
+
+                    <h1 class="uppercase text-red-400 font-bold text-xl"><b>Raf</b><b
+                            class="uppercase text-black">cart</b></h1>
+                    <h2 class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores recusandae
+                        aspernatur,</h2>
+
+                    <div class="link text-red-400 flex gap-3 cursor-pointer">
+                        <i class="fa-brands fa-facebook-f "></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="right flex">
+
+                    <div class="solution ml-20 my-10">
+                        <h1 class="uppercase  my-3  text-gray-500 font-bold hover:text-red-600">solution</h1>
+                        <h2 class="my-2 hover:text-red-600">Marketing</h2>
+                        <h2 class="my-2 hover:text-red-600">Analysis</h2>
+                        <h2 class="my-2 hover:text-red-600">Commerce</h2>
+                        <h2 class="hover:text-red-600">Insights</h2>
+
+
+                    </div>
+
+                    <div class="support ml-20 my-10">
+                        <h1 class="uppercase  my-3  text-gray-500 font-bold hover:text-red-600">SUPPORT</h1>
+                        <h2 class="my-2 hover:text-red-600">Pricing</h2>
+                        <h2 class="my-2 hover:text-red-600">Documentation</h2>
+                        <h2 class="my-2 hover:text-red-600">Guides</h2>
+                        <h2>API Status</h2>
+
+
+                    </div>
+
+                    <div class="company ml-20 my-10  cursor-pointer">
+                        <h1 class="uppercase  my-3 hover:text-red-600  text-gray-500 font-bold">company</h1>
+                        <h2 class="my-2 mx-2 hover:text-red-600">About</h2>
+                        <h2 class="my-2 mx-2 hover:text-red-600">Blog</h2>
+                        <h2 class="my-2 mx-2 hover:text-red-600">jobs</h2>
+                        <h2 class="mx-2 hover:text-red-600">Press</h2>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+
+    <!--Fotter End-->
+
+
+
+    <!--copy right start -->
+
+    <section class="bg-blue-900 pb-5">
+        <div class="container">
+            <div class="copy my-5 ">
+                <h1 class="text-white flex items-center justify-center ">RAFCART All Right Reserved </h1>
+            </div>
+
+
+        </div>
+
+        <!--copy right End-->
+
+
+
+
+</body>
+
+</html>

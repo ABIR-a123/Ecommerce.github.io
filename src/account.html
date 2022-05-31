@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.tailwindcss.com"></script>
+      
+        <link href="/dist/output.css" rel="stylesheet">
+        <title>Ecommarce</title>
+      </head>
+<body>
+    <header class="py-4 px-4 shadow-md bg-white items-center ">
+        <div class="container flex item-center justify-between ">
+          <!--logo------>
+          <div class="items-center mt-3 font-bold ml-4">
+            <h1 class="uppercase text-red-400 font-bold text-xl ml-24">Raf<b class="uppercase text-black">cart</b></h1>
+                          
+          </div>
+          <!--Search------>
+          <div class="w-2/4 h-4/5  relative flex my-4 ml-4">
+            <span class="left-3 top-1.5 absolute  text-gray-500 text-xs">
+              <i class="fa-solid fa-magnifying-glass"></i>
+    
+            </span>
+            <input type="text" class=" w-2/4 border border-red-300 border-r-0 pl-12   rounded-l-md focus:outline-none"
+              placeholder="search ">
+            <button
+              class="bg-red-400 border border-red-300 text-white px-8 rounded-r-md  hover:text-red-300  text-sm">Search</button>
+          </div>
+    
+    
+          <!--icon------>
+          <div class=" flex  ">
+           
+            <div class="">
+              <a href="account.html">
+                <i class="fa-solid fa-person text-4xl text-red-400 -ml-72 my-3 cursor-pointer "> <h1 class="text-sm -ml-4 text-black">Account</h1></i>
+                
+              </a>
+              
+            </div>
+    
+            <div class="">
+              <a href="view.html">
+                <i class="fa-solid fa-cart-arrow-down text-4xl  text-red-400 -ml-52 my-3  "> <h1 class="text-sm  text-black ml-">cart</h1></i>
+                
+              </a>
+              
+            </div>
+         
+    
+    
+    
+        </div>
+      </header>
+      <!--navbar start-->
+      <nav class="bg-gray-800 ">
+        <div class="container flex items-center  ">
+          <div class="left flex py-2 ml-28 text-white items-center relative group bg-red-400 pl-4 ">
+            <i class="fa-solid fa-bars"></i>
+            <span class="mx-2"> All Categories</span>
+            <div
+              class="absolute w-full bg-white shadow-md left-0 mt-72 mb-6  divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100  transition duration-1000 invisible group-hover:visible">
+              <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                <i class="fa-solid fa-couch text-gray-500"></i>
+                <span class="ml-6 text-gray-600 text-sm">sofa</span>
+    
+                <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                  <i class="fa-solid fa-bed text-gray-500 "></i>
+                  <span class="ml-6 text-gray-600 text-sm">Bedroom</span>
+    
+                  <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                    <i class="fa-solid fa-house-laptop text-gray-500"></i>
+                    <span class="ml-6 text-gray-600 text-sm">Offie</span>
+                    <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                      <i class="fa-solid fa-hands-bound text-gray-500"></i>
+                      <span class="ml-6 text-gray-600 text-sm">Outdoors</span>
+    
+                      <a href="#" class="flex items-center px-3 py-3 hover:bg-gray-100 transition ">
+                        <i class="fa-solid fa-mattress-pillow text-gray-500"></i>
+                        <span class="ml-6 text-gray-600 text-sm">Motters</span>
+    
+    
+    
+    
+                      </a>
+    
+    
+    
+            </div>
+    
+    
+          </div>
+          <div class="right flex  items-center">
+            <div class="left1 ml-12 text-white space-x-4 text-sm">
+              <a href="index.html">Home</a>
+              <a href="shop.html">Shop</a>
+    
+              <a href="About.html">About Us</a>
+    
+              <a href="Contact.html">Contact Us</a>
+    
+    
+            </div>
+            <div class="right1 ml-48 text-white text-sm cursor-pointer">
+              <a href="login.html">Login/</a>
+              <a href="Register.html">Register</a>
+    
+            </div>
+    
+    
+    
+          </div>
+    
+        </div>
+    
+    
+      </nav>
+    
+      <!--navbar End-->
+
+
+
+
+       <!--breadcum start-->
+    <div class="container py-3">
+        <div class="ml-28">
+        
+            <i class="fa-solid fa-house-user text-red-400 text-2xl "></i>
+            <i class="fa-solid fa-greater-than text-gray-500 mx-3 text-2xl"></i>
+            <span class="text-xl -ml-1">My Account</span>
+        </div>
+
+    </div>
+      <!--breadcum End-->
+
+       <!--Account  Management start-->
+
+
+    <div class="container ml-56">
+      <div class="grid grid-cols-4">
+        
+        <div class="left ">
+
+          <div class="profile my-6 flex shadow shadow-b pb-4">
+              <img src="/images/man1.jpg" class="w-10 h-12 rounded-full ">
+              <div class="mx-7">
+                  <h1>Hello,</h1>
+                  <h2 class="font-semibold">Abir Hossain</h2>
+              </div>
+
+          </div>
+          <div class="Manage_account flex shadow pb-4 ">
+              <img src="/images/manage1.jpg" class="w-7 h-7">
+
+              <div class="mx-7">
+                  <h1 class="text-red-500 ">Manage Account</h1>
+                  <h2>profile Information</h2>
+                  <h1>Manage Address</h1>
+                  <h1>Change Password</h1>
+              </div>
+
+          </div>
+
+          <div class="order flex my-5 shadow pb-4">
+              <img src="/images/order2.png" class="w-7 h-7">
+              <div class="mx-7">
+                  <h1 class="font-semibold">My Order History</h1>
+                  <h1>My Returns</h1>
+                  <h1>My Cancellation</h1>
+                  <h1>My Review</h1>
+              </div>
+          </div>
+
+          <div class="order flex my-5 shadow pb-2">
+            <img src="/images/payment.png" class="w-7 h-7">
+            <div class="mx-7">
+                <h1 class="font-semibold">Payment Method</h1>
+                <h1>Voucher</h1>
+              
+            </div>
+        </div>
+
+        <div class="order flex my-5 shadow pb-2">
+            <img src="/images/wishlist.png" class="w-7 h-7">
+            <div class="mx-7">
+                <h1 class="font-semibold">My Wishlist</h1>
+               
+              
+            </div>
+        </div>
+
+        <div class="order flex my-5 shadow pb-3">
+            <img src="/images/logout.png" class="w-7 h-7">
+            <div class="mx-7">
+                <h1 class="font-semibold">Logout</h1>
+               
+              
+            </div>
+        </div>
+
+        </div>
+
+        <div class="right ">
+            <div class="flex mx-3 shadow pb-14 my-8">
+
+                <div class="  text-lg ">
+                    <h1 class="font-semibold my-3 mx-3">Personal Profile</h1>
+                    <h1 class="mx-3">abirh4534@gmail.com</h1>
+                    <h2 class="mx-3">01319631219</h2>          
+    
+                </div>
+                <div class="my-3 mx-8 text-red-400 cursor-pointer">
+                    <h1>Edit</h1>
+                </div>
+    
+
+            </div>
+            
+            
+
+
+        </div>
+
+            <div class="">
+                <div class="my-8 shadow flex pb-9">
+                    <div class="  text-lg ">
+                        <h1 class="font-semibold my-2 mx-3">Shipping Address</h1>
+                        <h1 class="font-semiboild mx-3">Abir Hossain</h1>
+                        <h1 class="mx-3">America</h1>
+                        <h2 class="mx-3">bangladesh</h2>          
+        
+                    </div>
+                    <div class="my-3 mx-14 text-red-400 cursor-pointer">
+                        <h1>Edit</h1>
+                    </div>
+                    
+                </div>
+               
+            </div>
+
+            <div class="pb-9">
+                <div class="my-8 shadow flex mx-3 pb-9">
+                    <div class="  text-lg ">
+                        <h1 class="font-semibold my-2 mx-3">Billing Address</h1>
+                        <h1 class="font-semiboild mx-3">Abir Hossain</h1>
+                        <h1 class="mx-3">Bikash</h1>
+                        <h2 class="mx-3">01319631219(Personal)</h2>          
+        
+                    </div>
+                    <div class="my-3 mx-8 text-red-400 cursor-pointer">
+                        <h1>Edit</h1>
+                    </div>
+                    
+                </div>
+               
+            </div>
+
+
+      </div>
+    </div>
+
+
+
+ <!--Account  Management end-->
+
+        <!--Fotter start-->
+             
+        <footer class="container  my-20 bg-white pb-12 border-t border-gray-100 shadow">
+
+            <div >
+
+
+              <div class="grid grid-cols-3">
+
+               <div class="left ml-24 my-10 ">
+
+                 <h1 class="uppercase text-red-400 font-bold text-xl"><b>Raf</b><b class="uppercase text-black">cart</b></h1>
+                 <h2 class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores recusandae aspernatur,</h2> 
+
+                 <div class="link text-red-400 flex gap-3 cursor-pointer">
+                  <i class="fa-brands fa-facebook-f "></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+
+
+                 </div>
+                 
+
+               </div>
+
+               <div class="right flex">
+
+                <div class="solution ml-20 my-10">
+                   <h1 class="uppercase  my-3  text-gray-500 font-bold hover:text-red-600">solution</h1>
+                   <h2 class="my-2 hover:text-red-600">Marketing</h2>
+                   <h2 class="my-2 hover:text-red-600">Analysis</h2>
+                   <h2 class="my-2 hover:text-red-600">Commerce</h2>
+                   <h2 class="hover:text-red-600">Insights</h2>
+
+
+                </div>
+
+                <div class="support ml-20 my-10">
+                  <h1 class="uppercase  my-3  text-gray-500 font-bold hover:text-red-600">SUPPORT</h1>
+                  <h2 class="my-2 hover:text-red-600">Pricing</h2>
+                  <h2 class="my-2 hover:text-red-600">Documentation</h2>
+                  <h2 class="my-2 hover:text-red-600">Guides</h2>
+                  <h2>API Status</h2>
+
+
+               </div>
+
+               <div class="company ml-20 my-10  cursor-pointer">
+                <h1 class="uppercase  my-3 hover:text-red-600  text-gray-500 font-bold">company</h1>
+                <h2 class="my-2 mx-2 hover:text-red-600">About</h2>
+                <h2 class="my-2 mx-2 hover:text-red-600">Blog</h2>
+                <h2 class="my-2 mx-2 hover:text-red-600">jobs</h2>
+                <h2 class="mx-2 hover:text-red-600">Press</h2>
+
+
+             </div>
+
+             
+
+
+               </div>
+
+              </div>
+
+         </div>
+
+
+
+           </footer>
+               
+             
+
+                <!--Fotter End-->
+
+
+
+                  <!--copy right start -->
+
+                  <section class="bg-blue-900 pb-5">
+                    <div class="container">
+                      <div class="copy my-5 ">
+                        <h1 class="text-white flex items-center justify-center ">RAFCART All  Right Reserved </h1>
+                      </div>
+
+
+                </div>       
+
+                    <!--copy right End-->
+
+    
+    
+</body>
+</html>
